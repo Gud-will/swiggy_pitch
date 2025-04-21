@@ -54,7 +54,7 @@ With this tool:
 - ⚡ Lightweight (works under ~1.5GB RAM)
 
 ## 📷 UI Preview
-![Grocery Extractor UI](./assets/![demo_screenshot](https://github.com/user-attachments/assets/fd1f0c90-7de9-46a5-a453-189155117336))
+![Grocery Extractor UI](./assets/demo_screenshot.png)
 
 🔧 Setup
 Install dependencies:
