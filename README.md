@@ -32,7 +32,7 @@ With this tool:
 🧠 **Processing**:
 - Whisper (or any voice-to-text model) transcribes the speech.
 - A small language model (like T5 or Teapot) extracts item names and quantities.
-- Regex + optional DB matching improves accuracy.
+- Regex to extract items and their respective quantities.
 
 📦 **Output**: A clean JSON list like:
 
@@ -42,3 +42,33 @@ With this tool:
   {"item": "Lady's finger", "quantity": "100gms"},
   {"item": "Cheese", "quantity": "250gms"}
 ]
+```
+
+## 🎯 Features
+- 🎤 Voice & Text input supported via Gradio
+
+- 🧠 Smart AI understanding of item names (even with brands)
+
+- 🔍 Scalable to plug into Swiggy or similar grocery platforms
+
+- ⚡ Lightweight (works under ~1.5GB RAM)
+
+## 📷 UI Preview
+![Grocery Extractor UI](./assets/![demo_screenshot](https://github.com/user-attachments/assets/fd1f0c90-7de9-46a5-a453-189155117336))
+
+🔧 Setup
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+Make sure ffmpeg is installed and available in your system path.
+
+Run the app:
+
+```bash
+python app.py
+```
+
+📫 Contact
+Crafted with ❤️ by Sai Adhithya
